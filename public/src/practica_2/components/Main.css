@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    margin: 5px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #0056b3;
+  }
+  
+  .main-body {
+    margin: 20px 0; /* Espacio arriba y abajo del cuerpo principal */
+    text-align: center;
+  }
+  
+  p {
+    font-style: italic;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  

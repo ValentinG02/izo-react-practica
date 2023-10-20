@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    color: #007BFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  .titulo {
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color del texto (puedes cambiarlo a tu elección) */
+    text-align: center; /* Alineación al centro */
+    margin: 20px 0; /* Margen superior e inferior */
+  }

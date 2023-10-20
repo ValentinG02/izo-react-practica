@@ -1,0 +1,57 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0; /* Agrega espacio vertical entre etiquetas */
+    font-weight: bold;
+  }
+  
+  input[type="number"], select {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Agrega espacio vertical entre checkbox y etiquetas */
+    font-weight: bold;
+  }
+  
+  .checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .output {
+    font-size: 18px;
+    margin: 20px 0; /* Agrega espacio vertical entre la salida y los elementos anteriores */
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 10px 0; /* Agrega espacio vertical entre el botón y la salida */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .Salida{
+    display: block;
+    margin: 10px 0; /* Agrega espacio vertical entre etiquetas */
+    font-weight: bold;
+  }

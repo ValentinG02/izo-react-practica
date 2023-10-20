@@ -1,0 +1,22 @@
+.menu > a {
+  display: inline-block;
+  padding: 5px;
+}
+
+.title-color {
+  color: blue;
+}
+.title-decoration {
+  text-transform: uppercase;
+}
+.body-page {
+  font-style: italic;
+}
+
+.page-header h1 {
+  text-transform: uppercase;
+}
+.main-body {
+  font-style: italic;
+  color: red;
+}
